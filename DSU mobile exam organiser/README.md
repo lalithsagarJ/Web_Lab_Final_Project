@@ -25,14 +25,14 @@ Prepared by final year students of CSE for web lab - DSU
 Run:
 
 1) Make Migration to the database :
-## python3 manage.py makemigrations
-## python3 manage.py migrate
+# python3 manage.py makemigrations
+# python3 manage.py migrate
 
 
 2) Create a superuser for the webpage : 
-## python3 manage.py createsuperuser
+# python3 manage.py createsuperuser
 
 
 3) Run server :
-## python3 manage.py runserver
+# python3 manage.py runserver
 
