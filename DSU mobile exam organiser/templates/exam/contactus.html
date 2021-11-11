@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+</head>
+
+<body>
+
+  {% include "exam/navbar.html" %}
+  <br><br>
+
+  <center>
+    <h3 class='alert alert-success'>Please fillup the form in order to contact us</h3>
+
+    <form method="POST" autocomplete="off">
+      <!-- Very Important csrf Token -->
+      {% csrf_token %}
+      <div class="form-group">
+        <p>
+        <h3>{{ form.as_p }}</h3>
+        </p>
+        <br>
+        <input type="submit" value="Submit" class='btn btn-primary' style="border-radius: 10%;">
+      </div>
+    </form>
+  </center>
+
+  {% include "exam/footer.html" %}
+  <footer style="color:white">Prepared By:
+    <ul style="display: grid;">
+      <li>LalithSagar J - ENG18CS0147</li>
+      <li>LalithAnand S - ENG18CS0146</li>
+      <li>MRS Ruthvik   - ENG18CS0158</li>
+      <li>Meghana Shree - ENG18CS0165</li>
+    </ul>
+  </footer>
+</body>
+
+</html>
