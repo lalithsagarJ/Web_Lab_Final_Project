@@ -35,4 +35,3 @@ Run:
 
 3) Run server :
 ### python3 manage.py runserver
-
