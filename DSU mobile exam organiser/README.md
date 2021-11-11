@@ -1,11 +1,17 @@
 This is a web development project for final year ( semester 7 )
+
 web techs used: html, css, bootstrap
+
 environment: Django for all Functioning of webpage
+
 database: inbuilt sqlite (Django)
 
-there are 3 logins :
+There are 3 logins :
+
 1) student - just can give exam and view marks 
+
 2) teacher - who assigns exam with questions
+
 3) Admin - who has all privileges on the website
 
 
