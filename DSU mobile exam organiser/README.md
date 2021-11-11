@@ -26,7 +26,7 @@ Run:
 
 1) Make Migration to the database :
 # python3 manage.py makemigrations
-# python3 manage.py migrate
+### python3 manage.py migrate
 
 
 2) Create a superuser for the webpage : 
