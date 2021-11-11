@@ -1,10 +1,10 @@
 This is a web development project for final year ( semester 7 )
 
-web techs used: html, css, bootstrap
+web techs used: html, css, bootstrap, simple JS
 
-environment: Django for all Functioning of webpage
+Environment: Django for all Functioning of webpage
 
-database: inbuilt sqlite (Django)
+database: sqlite3 (Django inbuilt)
 
 There are 3 logins :
 
@@ -21,3 +21,15 @@ Prepared by final year students of CSE for web lab - DSU
     LalithAnand S   - ENG18CS0146
     MRS Ruthvik     - ENG18CS0158
     Meghana Shree   - ENG18CS0165
+
+Run:
+1)Make Migration to the database :
+### python3 manage.py makemigrations
+### python3 manage.py migrate
+
+2)Crerate a superuser for the webpage : 
+### python3 manage.py createsuperuser
+
+3)Run server :
+### python3 manage.py runserver
+
